@@ -1,0 +1,51 @@
+Netflix Data Cleaning and Analysis Summary
+
+As part of my data science journey, I undertook an extensive project focused on the Netflix dataset, utilizing both Python and SQL to perform data cleaning and analysis. This project was designed to extract 
+valuable insights from the data, while also honing my skills in data manipulation and querying. The dataset consisted of a variety of information related to Netflix's content library, including movies, TV shows,
+genres, directors, countries, and other metadata.
+
+Data Cleaning Process
+
+The first step in the project was data cleaning, which is a critical aspect of any data analysis process. I used Python to handle the initial data processing tasks. This included removing null values,
+handling missing data, and standardizing formats for dates and text fields. I employed Python libraries like pandas and numpy to clean and preprocess the data efficiently. Specifically, I addressed issues such 
+as duplicate entries, inconsistent data formats, and missing values, ensuring that the dataset was in a clean and usable state for further analysis.
+
+Once the preliminary cleaning was done, I moved on to using SQL for more granular data manipulation. SQL allowed me to filter the dataset based on specific conditions, join different tables, and aggregate the
+data in meaningful ways. I used SQL queries to further refine the dataset, ensuring that it was optimized for the analysis phase. This combination of Python and SQL provided a powerful approach to data cleaning,
+leveraging the strengths of both languages to prepare the data thoroughly.
+
+Data Analysis
+
+With the data cleaned and prepared, I proceeded to the analysis phase, where I aimed to answer several key questions that would provide insights into Netflix's content distribution and trends. The following are
+the primary analyses I conducted:
+
+Director's Work Distribution:
+
+One of the key analyses was to explore the work distribution of directors who have contributed to Netflix's content library. Specifically, I wanted to understand how many movies and
+TV shows each director has created. Using SQL, I crafted a query that counted the number of movies and TV shows separately for each director who has worked on both formats. The results were organized into separate columns, allowing for easy comparison of a director's involvement in movies versus TV shows. This analysis provided insights into the versatility and productivity of various directors in the Netflix ecosystem.
+
+Top Country for Comedy Movies:
+
+Comedy is a popular genre on Netflix, and I was interested in identifying which country produced the highest number of comedy movies. By analyzing the data, I was able to determine
+the country with the largest contribution to the comedy genre on Netflix. This information is valuable for understanding regional preferences and the global distribution of content. The analysis revealed trends in content production and how different countries contribute to Netflix's comedy offerings.
+
+Average Movie Duration by Genre:
+
+Understanding the typical duration of movies within different genres can provide insights into content consumption patterns. I calculated the average duration of movies for each
+genre, allowing for a comparison of how movie lengths vary across different types of content. This analysis involved grouping the data by genre and then calculating the average duration within each group.
+The results highlighted trends in movie lengths, showing which genres tend to have longer or shorter movies. This information could be useful for content creators and consumers alike, offering a deeper 
+understanding of genre-specific characteristics.
+
+Directors of Both Horror and Comedy Movies:
+
+Lastly, I sought to identify directors who have worked on both horror and comedy movies. This analysis was particularly interesting as it revealed directors who 
+have the versatility to create content in two distinct and popular genres. Using SQL, I filtered the data to find directors who have credits in both horror and comedy genres. The resulting list of directors
+demonstrated the range of talent within the industry and provided insights into the creative diversity of filmmakers who contribute to Netflix's content library.
+
+Conclusion
+
+This project not only provided valuable insights into Netflix's content but also enhanced my proficiency in data cleaning, Python, and SQL. The combination of these skills allowed me to tackle complex data 
+challenges and extract meaningful information from a large and varied dataset. Through this project, I gained a deeper understanding of the content distribution on Netflix and the factors that influence the 
+creation and consumption of different types of content. The analyses conducted have practical applications in content strategy, audience targeting, and understanding global content trends.
+
+Overall, this project was a significant learning experience, reinforcing the importance of thorough data cleaning and the power of SQL in data analysis. It also highlighted the value of asking the right questions and using data-driven approaches to find answers that can inform decision-making and strategic planning.
